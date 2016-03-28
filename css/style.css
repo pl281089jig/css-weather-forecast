@@ -1,0 +1,123 @@
+html{
+ height: 100%;
+ }
+
+html, body{
+ min-height: 100%;
+ }
+
+body{
+	border: 20px solid #2B81AC;
+	background-color:#3399CC;
+	margin: 0;
+	font: 15px/1.3 "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+
+*{box-sizing: border-box;
+transition: all .1s ease-in;}
+
+
+.wf-footer {
+	font-size:18px;
+	font-weight: normal;
+}
+
+.wf-container{
+	max-width:900px;
+	color:#FFFFFF;
+	margin: 0 auto;
+}
+
+.wf-towns h2{font-size: 18px;}
+
+.wf-towns {
+	font-size:0;
+	text-align: center;
+	margin:0 auto;
+	padding:3px;
+	}
+
+.wf-towns li {
+	margin:0 auto;
+	padding: 10px;
+	display: inline-block;
+	font-size:20px;
+	border:2px solid #FFFFFF;
+	list-style-type: none;
+}
+
+.wf-towns {
+	padding:2px;
+	background-color: #FFFFFF;
+}
+
+.lisbon {
+	width: 50%;
+	background-color: #3399CC;
+}
+
+.paris {
+	width: 25%;
+	background-color:#33CCCC;
+}
+
+.belgrad {
+	width: 25%;
+	background-color:#996699;
+}
+
+.moscow {
+	width: 25%;
+	background-color:#C24747;
+}
+
+.aviv{
+	width: 25%;
+	background-color:#E2674A;
+}
+
+.cair{
+	width: 25%;
+	background-color:#FFCC66;
+}
+
+.york{
+	width: 25%;
+	background-color:#99CC99;
+}
+
+.delhi{
+	width: 25%;
+	background-color:#669999;
+}
+
+.francisco{
+	width: 50%;
+	background-color:#CC6699;
+}
+
+.tokyo{
+	width: 25%;
+	background-color:#339966;
+}
+
+.sydney{
+	width: 100%;
+	background-color:#666699;
+}
+
+.wi {
+	font-size:30px;
+}
+
+h1 {font-size:26px;}
+
+
+.wf-towns:hover  li:not(:hover) {
+ opacity: 0.4;
+}
+
+
+
+/*надо выровнять иконки с числом градуса и градус через after.
